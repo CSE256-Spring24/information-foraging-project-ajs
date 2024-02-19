@@ -1,3 +1,19 @@
 @import url("common.css");
 @import url("staff_entry.css");
 @import url("side_menu.css");
+#navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #navbar a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  #navbar a:hover {
+    color: #007bff;
+  }
+  
