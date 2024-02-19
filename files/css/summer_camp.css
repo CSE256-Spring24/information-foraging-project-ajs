@@ -2,3 +2,25 @@
 .image-container {
     background-image: url("https://nurseryschool.wustl.edu/files/2015/03/group-holi.jpg");
 }
+
+.content {
+    display: flex;
+}
+  
+.text {
+    flex: 1;
+}
+
+.content em{
+    flex: 1;
+    line-height: 1.5;
+}
+  
+.images {
+    flex: 1;
+    text-align: right;
+}
+  
+.images img {
+    margin-bottom: 10px; /* Add margin between images */
+}
