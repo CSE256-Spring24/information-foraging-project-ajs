@@ -1,2 +1,130 @@
 @import url("common.css");
-@import url("side_menu.css");
+/* @import url("side_menu.css"); */
+
+main ul {
+    margin-top: 1em;
+}
+
+main li {
+    font-size: 1.15em;
+    margin-bottom: 1em;
+}
+
+.classroom {
+    margin-top: 6em;
+    margin-bottom: 1em;
+    clear: both;
+    overflow: hidden;
+}
+
+.classroom img {
+    float: left;
+    margin-right: 2.5em;
+}
+
+.classroom p {
+    font-size: 1.15em;
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    #page-content {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    main {
+      padding: 20px;
+    }
+    
+    nav {
+        background: #0055a5;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #ade1fb;
+    }
+
+    h1 {
+      font-size: 2.5em; /* 40px */
+      color: #274e13;
+      margin-top: 0;
+      margin-bottom: 0.5em;
+    }
+
+    h2 {
+      font-size: 2em; /* 32px */
+      color: #0055a5;
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.25em;
+    }
+
+    h3 {
+      font-size: 1.5em; /* 24px */
+      color: #007acc;
+      margin-top: 0.75em;
+      margin-bottom: 0.3em;
+    }
+
+    ul {
+      margin: 10px 0 20px;
+      padding-left: 20px;
+    }
+
+    li {
+      font-size: 1em; /* 16px */
+      margin-bottom: 5px;
+    }
+
+    .curriculum-overview > div {
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-left: 5px solid #007acc;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    a.download {
+      display: inline-block;
+      background: #0055a5;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    a.download:hover {
+      background: #007acc;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 8px;
+      max-width: 100%; /* Responsive images */
+      height: auto;
+    }
