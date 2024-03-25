@@ -1,3 +1,111 @@
 @import url("common.css");
 @import url("side_menu.css");
 @import url("staff_entry.css");
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Main content styling */
+  #page-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  h1, h2, h3 {
+    color: #2a7f62;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.75em;
+    font-weight: normal;
+    color: #555;
+  }
+  
+  h3 {
+    font-size: 1.25em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #2a7f62;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    background-color: #3a9f82;
+  }
+  
+  /* Link styles */
+  a.download {
+    color: #2a7f62;
+    text-decoration: none;
+  }
+  
+  a.download:hover {
+    text-decoration: underline;
+  }
+  
+  .individual-staff-member {
+    background-color: #e9e9e9;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .individual-staff-member-inner-div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .individual-staff-member img {
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .individual-staff-member-data h3 {
+    margin: 0;
+    color: #555;
+  }
+  
+  .individual-staff-member-data p {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
