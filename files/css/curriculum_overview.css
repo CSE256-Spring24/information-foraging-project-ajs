@@ -1,5 +1,7 @@
 @import url("common.css");
+@import url("accordian.css");
 /* @import url("side_menu.css"); */
+
 main ul {
     margin-top: 1em;
 }
